@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE4C71E9-5AA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7650511F-B3C6-4051-BF9C-9C6DD07A7E8A}"
 	ProjectSection(SolutionItems) = preProject
+		CreateDBScriptWIthData.sql = CreateDBScriptWIthData.sql
 		global.json = global.json
 	EndProjectSection
 EndProject
