@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="results"></div>
+    <!-- <script src="Scripts/oidc-client.js"></script>-->
+    <script src="Scripts/oidc-client.js"></script>
+    <script>
+        new Oidc.UserManager().signinRedirectCallback().then(function (data,e) {
+         
+            document.getElementById('results').innerHTML += JSON.stringify(data) + '\r\n';
+           window.location = "index.html";
+        }).catch(function (e) {
+            console.error(e);
+        });
+    </script>
+</body>
+</html>

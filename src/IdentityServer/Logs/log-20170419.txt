@@ -1,0 +1,28 @@
+2017-04-19T12:43:43.8076113+05:30 0HL46UEEINOC8 [ERR] Invalid redirect_uri: http://localhost:5003/silentrenew.html
+"{
+  \"ClientId\": \"jswebclient\",
+  \"ClientName\": \"JavaScript Client\",
+  \"RedirectUri\": \"http://localhost:5003/silentrenew.html\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5003/callback.html\",
+    \"http://localhost:5003/renew.html\",
+    \"http://localhost:5003/loggedout.html\",
+    \"http://localhost:5003/updated.html\"
+  ],
+  \"SubjectId\": \"f46a27be-15fe-4c22-967f-f7f0dc527962\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"jswebclient\",
+    \"redirect_uri\": \"http://localhost:5003/silentrenew.html\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile api1\",
+    \"state\": \"0c4507ac87194eb68a79673cd61369cc\",
+    \"nonce\": \"c82c350d748349c19dd57eb7cf98b240\",
+    \"prompt\": \"none\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVkOWZkMjhjYjFjNjdkYjk5MTk0YWM3OGJkYjAyNTFkIiwidHlwIjoiSldUIn0.eyJuYmYiOjE0OTI1ODU5NjIsImV4cCI6MTQ5MjU4NjI2MiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianN3ZWJjbGllbnQiLCJub25jZSI6IjM0YTNkMTZiZDE2MTQ0MjdiYWJjZDE1Y2RjMTE0MTMwIiwiaWF0IjoxNDkyNTg1OTYyLCJhdF9oYXNoIjoiMS1NUzlEUU5fdl9aT3QzTlZHb3NoQSIsInNpZCI6ImJkYzk4MWE2ODJiZWRmYzI4ODM5YTgwYzhlN2RmMGUwIiwic3ViIjoiZjQ2YTI3YmUtMTVmZS00YzIyLTk2N2YtZjdmMGRjNTI3OTYyIiwiYXV0aF90aW1lIjoxNDkyNTA3MTkzLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.q47y95CXnbuROrdYlOppvqh0c2rN8-HvuvaUwwrpHNpAzhkmeuSiH915q5DnhQRd2tzN2WdDdlK2cN7wKsPTJ2o_CEcsBQFziT3vD7s_X6nI_NOdthLBLDEA2gVcRf5AvbttFKTD889rU7SbFoHxXT56FAROSHUJExODrtfgt0FOIB05akMX0UsA4P3mu0OIYPRi4Q_Ejs8IHkGgHuMf5I_W8eg6qhV6iaTghFnakCy7RTyXUqy7hrBOzyRnRBDhZqmfcCdSa6arlHgcsjnqv872Y3Tvw8zPSU5Gbjh1ttbB6hKTW_X1eeDW_Ekb8pe_9ILyrTXqQIpDaHjJwAsleg\"
+  }
+}" (79060234)
+2017-04-19T12:43:43.8236099+05:30 0HL46UEEINOC8 [ERR] Request validation failed (abd529bc)
+2017-04-19T14:38:50.8499724+05:30 0HL46UEEINOC9 [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-04-19T14:40:53.9909956+05:30 0HL46UEEINOCA [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-04-19T16:06:43.6494466+05:30 0HL471VSEO6HB [ERR] Error processing end session request "Invalid request" (7af74809)

@@ -1,0 +1,92 @@
+2017-04-18T12:20:26.5976575+05:30 0HL464SOV8MJL [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-04-18T12:41:30.6819222+05:30 0HL4658HMH6V6 [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-04-18T12:41:49.1367995+05:30 0HL4658HMH6V7 [ERR] Invalid redirect_uri: http://localhost:5003/silentrenew.html
+"{
+  \"ClientId\": \"jswebclient\",
+  \"ClientName\": \"JavaScript Client\",
+  \"RedirectUri\": \"http://localhost:5003/silentrenew.html\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5003/callback.html\"
+  ],
+  \"SubjectId\": \"f46a27be-15fe-4c22-967f-f7f0dc527962\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"jswebclient\",
+    \"redirect_uri\": \"http://localhost:5003/silentrenew.html\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile api1\",
+    \"state\": \"e940acca2741403286ba4919265d051c\",
+    \"nonce\": \"b7cd925d9709464897e7ce3d978c9561\",
+    \"prompt\": \"none\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE0MDRiYWE5OGM4NGQyNTA3NjM3NmVkYjYxYjBmZjUzIiwidHlwIjoiSldUIn0.eyJuYmYiOjE0OTI0OTk1MDcsImV4cCI6MTQ5MjQ5OTgwNywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianN3ZWJjbGllbnQiLCJub25jZSI6IjJhNzNjNDNmMmNhOTQ5ZWQ4YjE2MTRmNTM2Yjk0MWJlIiwiaWF0IjoxNDkyNDk5NTA3LCJhdF9oYXNoIjoiUjlrc05SR1pKS29iQUdSallqY0s1QSIsInNpZCI6ImU1MGFiOTIxYzk3Mjk2Y2NkYzNjZWJjOTQyYjQ5YWEwIiwic3ViIjoiZjQ2YTI3YmUtMTVmZS00YzIyLTk2N2YtZjdmMGRjNTI3OTYyIiwiYXV0aF90aW1lIjoxNDkxODQ4MjAxLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.jCaWSrq3rQANMYLef3Q5zkbOpL2dHMjVwU7j7dpzkUN8Sbh6aOAjtK1zJvhOMwxRkW6SucfztoTr6J__dRARk5zaHhy9XQ1g1CmFk5ntnZ2OFDn8YE0WqCiQQlylehKW8srnUXY09-iVUn6pfOPTxRYT1HVYO95jeiFuiaI2hcWBSonsLVhIqTpuCA8GsZ7_GxHTNQRhtiVucLqpV0LxkErpWi4WUIwyf5m0erSFYvLyHdWVN7SiOnHC33oRDxT0ydACORqzBmQ68wdhaj7CkGQhPykXs8uPaGDNnfdSsBnVoPvr0NX30gfD0mxyqbqwhozs5gACYp-wUgQwZyLiNA\"
+  }
+}" (79060234)
+2017-04-18T12:41:49.1388008+05:30 0HL4658HMH6V7 [ERR] Request validation failed (abd529bc)
+2017-04-18T13:06:36.4723475+05:30 0HL465MIESEAO [ERR] Invalid redirect_uri: http://localhost:5003/silentrenew.html
+"{
+  \"ClientId\": \"jswebclient\",
+  \"ClientName\": \"JavaScript Client\",
+  \"RedirectUri\": \"http://localhost:5003/silentrenew.html\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5003/callback.html\"
+  ],
+  \"SubjectId\": \"f46a27be-15fe-4c22-967f-f7f0dc527962\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"jswebclient\",
+    \"redirect_uri\": \"http://localhost:5003/silentrenew.html\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile api1\",
+    \"state\": \"01cd996368454845a9b2b8c177eb237b\",
+    \"nonce\": \"efd45ad71184435baccf67b37e4c8dd2\",
+    \"prompt\": \"none\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImQyY2JjMzc2YWQ4ZTc4OGY3NjlkNWExMTk4NGRlYWNmIiwidHlwIjoiSldUIn0.eyJuYmYiOjE0OTI1MDA5OTQsImV4cCI6MTQ5MjUwMTI5NCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianN3ZWJjbGllbnQiLCJub25jZSI6IjE5N2MzNjgxNDcyYTQzMTViM2FiOTIyMzBkMjhhZjA4IiwiaWF0IjoxNDkyNTAwOTk0LCJhdF9oYXNoIjoiNVItQWh4bHVpWGY3X19ZeUZPMUdhUSIsInNpZCI6ImU1MGFiOTIxYzk3Mjk2Y2NkYzNjZWJjOTQyYjQ5YWEwIiwic3ViIjoiZjQ2YTI3YmUtMTVmZS00YzIyLTk2N2YtZjdmMGRjNTI3OTYyIiwiYXV0aF90aW1lIjoxNDkxODQ4MjAxLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.gkUoN0VVByJXhNSt8TNtlfer2KMn6ww6UExzyQHO23vpjiL1uiVvaDYBLvjxyAfSybK4VYRsUv7nQxYtWyhWNk2ingsZIlVdvyGtIFVysr_UaEzu935dTunfiFRBK4mLtdhBwyGPxNQviCgXvdc9sG1c2JFMJFXxcQ5sawRB56lMMBOJAbifnt3ESE0nqE8joORew649RZp7Hq27_A8zOaFAcyDqQmN6EhJIwoWufKp63yld9nHGzA0lemknih3fzNWCawHzD7Oh0rIOUXVacVHnZiBHXHVmkYj0T3VrUGa_KNE18ZK7x6C4IRExMN2vfugfte18pt_qNqlzQoIKLg\"
+  }
+}" (79060234)
+2017-04-18T13:06:36.4903598+05:30 0HL465MIESEAO [ERR] Request validation failed (abd529bc)
+2017-04-18T13:10:48.1674487+05:30 0HL465MIESEAP [ERR] Invalid redirect_uri: http://localhost:5003/silentrenew.html
+"{
+  \"ClientId\": \"jswebclient\",
+  \"ClientName\": \"JavaScript Client\",
+  \"RedirectUri\": \"http://localhost:5003/silentrenew.html\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5003/callback.html\"
+  ],
+  \"SubjectId\": \"f46a27be-15fe-4c22-967f-f7f0dc527962\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"jswebclient\",
+    \"redirect_uri\": \"http://localhost:5003/silentrenew.html\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile api1\",
+    \"state\": \"2407f77925324abca988e2c5d040acb4\",
+    \"nonce\": \"60b86575a3d446229d2f4e6ea5cbeac0\",
+    \"prompt\": \"none\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImQyY2JjMzc2YWQ4ZTc4OGY3NjlkNWExMTk4NGRlYWNmIiwidHlwIjoiSldUIn0.eyJuYmYiOjE0OTI1MDEyNDYsImV4cCI6MTQ5MjUwMTU0NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianN3ZWJjbGllbnQiLCJub25jZSI6IjhjNjExNmQ0ZjVmYzQ2MzZiOWUzNjRjNTg4OGMzMjg3IiwiaWF0IjoxNDkyNTAxMjQ2LCJhdF9oYXNoIjoiSVN6MmVEMGJuWU1ranU3d0cybllUZyIsInNpZCI6ImU1MGFiOTIxYzk3Mjk2Y2NkYzNjZWJjOTQyYjQ5YWEwIiwic3ViIjoiZjQ2YTI3YmUtMTVmZS00YzIyLTk2N2YtZjdmMGRjNTI3OTYyIiwiYXV0aF90aW1lIjoxNDkxODQ4MjAxLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.PWz3XFij8IELf39LziP9iEO8FqZzR7vCozRPmfzXb9bhHvFH2HbMpCUWEskDnYTGPmpfnlkoYaWZMoxdVYHCt01DtUrT5nnh-AKDPz2FJl3VOPAl0w03kpSlGbqCWL3PBNMv1ZOg9mIE8nGo1H58LT5YEBV2wtfAWH-pF9gnvyy8u4UlJV5H6qErUvWuX4qMI2YnxE4iSy1Bava9KUeQ60JFFwHjnRCskBvXk8W8u3nrK5FJupPh6Qynq5bSU8iO0wsYIvaxPLZsQxn33ozFRUOahoSU0KBHh9fueiEuV-xBkIaZhu8cEohMPScO-pHfRq5E0bNvrzwMtWwY5Iguvw\"
+  }
+}" (79060234)
+2017-04-18T13:10:48.1684497+05:30 0HL465MIESEAP [ERR] Request validation failed (abd529bc)
+2017-04-18T13:11:10.4875640+05:30 0HL465MIESEAQ [ERR] Invalid redirect_uri: http://localhost:5003/silentrenew.html
+"{
+  \"ClientId\": \"jswebclient\",
+  \"ClientName\": \"JavaScript Client\",
+  \"RedirectUri\": \"http://localhost:5003/silentrenew.html\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5003/callback.html\"
+  ],
+  \"SubjectId\": \"f46a27be-15fe-4c22-967f-f7f0dc527962\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"jswebclient\",
+    \"redirect_uri\": \"http://localhost:5003/silentrenew.html\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile api1\",
+    \"state\": \"c0462ddde4744c5b90ae72ceb9e3e03d\",
+    \"nonce\": \"962e37d285f24fec98609ecd6df9dad4\",
+    \"prompt\": \"none\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImQyY2JjMzc2YWQ4ZTc4OGY3NjlkNWExMTk4NGRlYWNmIiwidHlwIjoiSldUIn0.eyJuYmYiOjE0OTI1MDEyNjgsImV4cCI6MTQ5MjUwMTU2OCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianN3ZWJjbGllbnQiLCJub25jZSI6IjY4NjM1YTQyOThkNjRjMDhiNDVlYWE3ODZhNGQ5ZDZhIiwiaWF0IjoxNDkyNTAxMjY4LCJhdF9oYXNoIjoiVHUyOV9uMzVIOHRSTjN6c19TNmd4QSIsInNpZCI6ImU1MGFiOTIxYzk3Mjk2Y2NkYzNjZWJjOTQyYjQ5YWEwIiwic3ViIjoiZjQ2YTI3YmUtMTVmZS00YzIyLTk2N2YtZjdmMGRjNTI3OTYyIiwiYXV0aF90aW1lIjoxNDkxODQ4MjAxLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.D0d8jCOS5HbTuGVdR_759VGvpZGk7iFMp8XNxFZQjVYFPhRSb5_YFJfXH9JgbYE0Mp3BoWegAFtqdBLb1mr87_SB-T9NhVS6lccX5bNHjaM2tmukyS7argBi5nre2EP46RUU6D8cv2mKITgeu54P2qPWrYumXuDK8-tPBewwaX79ws3FGTJUFzitlVB3w-NYbx8o7ELZHoBZWiWDWzDNPCuNOq2iv4D5Cx7megYT37TQ3wGh5Ypa3iKwXIHaAvZQR7tsW32iFrczB-igF-Bcu8Y8tUoAESsMuUwNl9jiXlNll_3ze0HqUHmKx3HJY2oeEOv3BOsADXz4HW5-MqV1_w\"
+  }
+}" (79060234)
+2017-04-18T13:11:10.4875640+05:30 0HL465MIESEAQ [ERR] Request validation failed (abd529bc)
+2017-04-18T14:48:52.5400935+05:30 0HL467FN4V880 [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-04-18T14:49:15.4251865+05:30 0HL467FN4V881 [ERR] Error processing end session request "Invalid request" (7af74809)

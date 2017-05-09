@@ -1,0 +1,4 @@
+2017-03-24T18:31:30.8303833+05:30 0HL3IMNI2A46U [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-03-24T18:33:25.1234904+05:30 0HL3IMNI2A46V [ERR] Error processing end session request "Invalid request" (7af74809)
+2017-03-24T18:33:33.1142961+05:30 0HL3IMNI2A470 [ERR] Requested scope not allowed: "api1" (754cc814)
+2017-03-24T18:33:33.1162975+05:30 0HL3IMNI2A470 [ERR] Request validation failed (abd529bc)

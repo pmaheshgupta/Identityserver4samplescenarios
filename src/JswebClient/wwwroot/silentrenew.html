@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- <script src="Scripts/oidc-client.js"></script>-->
+    <script src="Scripts/oidc-client.js"></script>
+    <script>
+        //Oidc.Log.logger = console;
+        //Oidc.Log.level = Oidc.Log.INFO;
+        localStorage.count = localStorage.count || 1;
+        console.log('silent renew happened');
+        console.log(localStorage.count);
+        localStorage.count =parseInt(localStorage.count) + 1;
+        new Oidc.UserManager().signinSilentCallback();
+        
+    </script>
+</head>
+<body>
+
+</body>
+</html>
